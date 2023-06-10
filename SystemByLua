@@ -181,8 +181,8 @@ local c = ws.CurrentCamera
 local function SendNotification(text)
     Notification:Notify(
         {Title = "Vertex.LUA", Description = "V2.0.0 - "..text},
-        {OutlineColor = Color3.fromRGB(147, 104, 161),Time = 2, Type = "image"},
-        {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(147, 104, 161)}
+        {OutlineColor = Color3.fromRGB(255, 255, 255),Time = 2, Type = "image"},
+        {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 255, 255)}
     )
 end 
 
